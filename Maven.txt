@@ -1,16 +1,5 @@
-package com.SpringbootApplication;
-
-@RestController
-@SpringBootApplication
-public class MySpringbootApplication {
-
-	@RequestMapping("/")
-	public String message() {
-		return "Welcome to the DevOps world!";
-	}
-
-	public static void main(String[] args) {
-		SpringApplication.run(MySpringbootApplication.class, args);
-	}
-
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
